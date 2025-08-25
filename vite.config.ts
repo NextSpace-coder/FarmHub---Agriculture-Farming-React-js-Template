@@ -22,6 +22,9 @@ interface AtRule {
 }
 
 export default {
+  server: {
+    allowedHosts: true,
+  },
   css: {
     postcss: {
       plugins: [
