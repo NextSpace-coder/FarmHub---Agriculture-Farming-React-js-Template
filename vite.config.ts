@@ -23,7 +23,7 @@ interface AtRule {
 
 export default {
   server: {
-    allowedHosts: ['.fly.io'],
+    allowedHosts: true as true,
   },
   css: {
     postcss: {
